@@ -126,28 +126,67 @@ body {
         .middle-part {
             display: inline-block;
             float: left;
-            width: 800px;
-            margin-left: calc((100% - 800px) / 2);
+            width: 700px;
+            margin-left: calc((100% - 700px) / 2);
             text-align: center;
+            padding-top: 50px;
+            padding-bottom: 70px;
          }
 
             .box-left {
-                background-color: orchid;
-                width: 50%;
+                width: 47%;
                 display: inline-block;
                 float: left;
+                text-align: left;
+                line-height: 110%;
+
             }
+
+                    .box-left > * {
+                        padding-bottom: 10px;
+                    }
+
+                    h4 {
+                        text-transform: uppercase;
+                    }
+
+                    h6 {
+                        font-weight: normal;
+                        font-size: 10px;
+                    }
+
+                    .box-left > p {
+                        font-size: 10px;
+                    }
+
+                    #Matrox {
+                        color: orangered;
+                        text-decoration: none; 
+                    }
+
+                    span {
+                        float: right;
+                    }
+
 
             .box-right {
                 background-color: pink;
-                width: 50%;
+                width: 40%;
                 display: inline-block;
-                float: left;
+                float: right;
+                text-align: left;
+                line-height: 110%;
 
             }
-                span {
-                    float: right;
-                }
+
+                    .box-right > * {
+                        padding-bottom: 10px;
+                    }
+
+                    .box-right > p {
+                        font-size: 10px;
+                    }
+
                 
 
     footer {
