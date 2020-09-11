@@ -7,3 +7,40 @@ box-sizing: border-box;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 word-break: break-all;
 }
+
+body {
+    background-color: lightblue;
+}
+
+.container {
+    display: inline-block;
+    width: 1300px;
+    margin-left: calc((100% - 1300px) / 2);
+
+}
+
+    header {
+        background-color: lightcyan;
+        display: inline-block;
+        display: inline-block;
+        width: 1300px;
+        margin-left: calc((100% - 1300px) / 2);
+    }
+
+    main {
+        background-color: lightyellow;
+        display: inline-block;
+        width: 1300px;
+        margin-left: calc((100% - 1300px) / 2);
+    }
+
+    footer {
+        background-color: lightgreen;
+        display: inline-block;
+        width: 1300px;
+        margin-left: calc((100% - 1300px) / 2);
+    }
+
+
+
+
