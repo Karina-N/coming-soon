@@ -27,6 +27,58 @@ body {
         margin-left: calc((100% - 1300px) / 2);
     }
 
+        .top-part {
+            display: inline-block;
+            background-color: rgb(62, 62, 212);
+            width: 450px;
+            margin-left: calc((100% - 450px) / 2);
+            text-align: center;
+            margin-top: 50px;
+        }
+
+                img {
+                    width: 30px;
+                    margin-bottom: 25px;
+                }
+
+                header > .top-part > h1 {
+                    text-transform: uppercase;
+                    margin-bottom: 5px;
+                }
+
+                header > .top-part > p {
+                    color: lightgrey;
+                    margin-bottom: 5px;
+                }
+
+                #timer>* {
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    display: block;
+                    list-style: none;
+
+                }
+
+                    .timer-numbers {
+                        display: inline-block;
+                        color: white;
+
+
+
+                    }
+
+                    .timer-words {
+                        display: inline-block;
+                        color: white;
+
+
+                    }
+
+                    li {
+                        display: inline-block;
+                    }
+
+
     main {
         background-color: lightyellow;
         display: inline-block;
