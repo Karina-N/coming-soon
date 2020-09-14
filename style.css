@@ -106,7 +106,7 @@ body {
                         background: none;
                     }
 
-                    ::placeholder {
+                    #email-placeholder {
                         color: white;
                     }
 
@@ -242,26 +242,26 @@ body {
                         border-bottom: 1px solid lightgrey; 
                     }
 
-                        ::placeholder {
-                            color: grey;
-                            font-size: 10px;;
-                        }
-
                         #name {
                             float: left;
+                            font-size: 10px;
                         }
+
 
                         #email {
                             float: right;
+                            font-size: 10px;
                         }
 
 
                     textarea {
                       width: 100%;
-                      margin-bottom: 20px;
+                      height: 45px;
                       border: none;
                       border-bottom: 1px solid lightgrey;
                       resize: none;
+                      font-size: 10px;
+                      margin-bottom: 20px;
                     }
 
                     form > .button {
@@ -277,9 +277,81 @@ body {
     footer {
         background-color: lightgreen;
         display: inline-block;
-        width: 1300px;
-        margin-left: calc((100% - 1300px) / 2);
+        width: 100%;
     }
+
+        .bottom-part {
+            display: inline-block;
+            width: 600px;
+            margin-left: calc((100% - 600px) / 2);
+            text-align: center;
+            padding-top: 20px;
+            margin-bottom: 50px;
+            background-color: lightsalmon;
+
+        }
+
+            .social-media {
+                background-color: lightcoral;
+                padding-bottom: 20px;
+            }
+
+            hr {
+                color: white;
+            }
+
+            .title {
+                display: inline-block;
+                background-color: pink;
+                padding-top: 20px;
+            }
+
+                img {
+                    display: inline-block;
+
+                }
+                
+                .title > h1 {
+                    color: white;
+                    display: inline-block;
+
+                }
+            
+            .bottom-text {
+                background-color: green;
+                display: inline-block;
+                font-size: 10px;
+                color: white;
+            }
+
+            .bottom-text > #matrox2 {
+                word-break: normal;
+            }
+            .copyright, .rights, .design {
+                display: inline-block;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-bottom: 10px;
+
+            }
+
+            .rights {
+                border-left: 1px solid white;
+                border-right: 1px solid white;
+
+            }
+
+            .last-paragraph {
+                margin-bottom: 10px;
+            }
+
+                
+
+                
+
+
+
+
 
 
 
