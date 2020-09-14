@@ -47,8 +47,15 @@ body {
 
                 header > .top-part > p {
                     color: lightgrey;
-                    margin-bottom: 5px;
+                    margin-bottom: 5px;    
+                
                 }
+
+                    p {
+                    word-break: normal;
+
+                    }
+                
 
                 #timer {
                     margin-top: 30px;
@@ -94,7 +101,7 @@ body {
                         height: 30px;
                         border: none;
                         border-bottom: 1px solid white;
-                        margin-bottom: 30px;
+                        margin-bottom: 40px;
                         font-size: 10px;
                         background: none;
                     }
@@ -103,7 +110,7 @@ body {
                         color: white;
                     }
 
-                    #button>* {
+                    .button {
                         text-transform: capitalize;
                         margin-bottom: 25px;
                         background-color: orangered;
@@ -130,7 +137,7 @@ body {
             margin-left: calc((100% - 700px) / 2);
             text-align: center;
             padding-top: 50px;
-            padding-bottom: 70px;
+            padding-bottom: 40px;
          }
 
             .box-left {
@@ -153,10 +160,12 @@ body {
                     h6 {
                         font-weight: normal;
                         font-size: 10px;
+                        color: grey;
                     }
 
                     .box-left > p {
                         font-size: 10px;
+                        color: grey;
                     }
 
                     #Matrox {
@@ -170,7 +179,6 @@ body {
 
 
             .box-right {
-                background-color: pink;
                 width: 40%;
                 display: inline-block;
                 float: right;
@@ -185,6 +193,56 @@ body {
 
                     .box-right > p {
                         font-size: 10px;
+                        color: grey;
+                        word-break: normal;
+                    }
+
+                    #trendy {
+                        color: orangered;
+                        text-decoration: none; 
+                        word-break: normal;
+
+                    }
+
+                    input {
+                        width: 48%;
+                        box-sizing: border-box;
+                        padding-bottom: 5px;
+                        margin-bottom: 20px;
+                        margin-top: 10px;
+                        color: black;
+                        border: none;
+                        border-bottom: 1px solid lightgrey; 
+                    }
+
+                        ::placeholder {
+                            color: grey;
+                            font-size: 10px;;
+                        }
+
+                        #name {
+                            float: left;
+                        }
+
+                        #email {
+                            float: right;
+                        }
+
+
+                    textarea {
+                      width: 100%;
+                      margin-bottom: 20px;
+                      border: none;
+                      border-bottom: 1px solid lightgrey;
+                      resize: none;
+                    }
+
+                    form > .button {
+                        float: right;
+                        margin-top: 10px;
+                        padding: 5px;
+                        padding-left: 15px;
+                        padding-right: 15px;
                     }
 
                 
