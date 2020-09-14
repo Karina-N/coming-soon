@@ -173,10 +173,37 @@ body {
                         text-decoration: none; 
                     }
 
-                    span {
-                        float: right;
+                .value {
+                    margin-top: 5px;
+                    margin-bottom: 20px;
+                    background-color: lightgrey;
+                    height: 3px;
+                }
+                    .value > #part1 {
+                        background-color: orangered;
+                        width:90%;
+                        height:3px;
                     }
 
+                    .value > #part2 {
+                        background-color: orangered;
+                        width:85%;
+                        height:3px;
+                    }
+
+                    .value > #part3 {
+                        background-color: orangered;
+                        width:85%;
+                        height:3px;
+                    }
+
+                .percents {
+                    color: grey;
+                    font-size: 10px;
+                    float: right;
+                    margin-top: -20px;
+                    margin-right: -20px;
+                }
 
             .box-right {
                 width: 40%;
