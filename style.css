@@ -104,9 +104,11 @@ body {
                         margin-bottom: 40px;
                         font-size: 10px;
                         background: none;
+
+                        
                     }
 
-                    #email-placeholder {
+                #type-email > #email-placeholder>* {
                         color: white;
                     }
 
@@ -264,6 +266,8 @@ body {
                       margin-bottom: 20px;
                     }
 
+
+
                     form > .button {
                         float: right;
                         margin-top: 10px;
@@ -275,7 +279,7 @@ body {
                 
 
     footer {
-        background-color: lightgreen;
+        background-color: #ff9201;
         display: inline-block;
         width: 100%;
     }
@@ -287,57 +291,67 @@ body {
             text-align: center;
             padding-top: 20px;
             margin-bottom: 50px;
-            background-color: lightsalmon;
 
         }
 
             .social-media {
-                background-color: lightcoral;
                 padding-bottom: 20px;
             }
 
-            hr {
+            .fa {
+                padding-left: 10px;
                 color: white;
+                text-decoration: none;
+            }
+
+            hr {
+                border: none;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+
             }
 
             .title {
                 display: inline-block;
-                background-color: pink;
-                padding-top: 20px;
+                padding-top: 0px;
+                width: 420px;
+
             }
 
                 img {
                     display: inline-block;
-
+                    margin-top: 20px;
                 }
                 
                 .title > h1 {
                     color: white;
                     display: inline-block;
+                    margin-top: 20px;
 
                 }
             
             .bottom-text {
-                background-color: green;
                 display: inline-block;
                 font-size: 10px;
                 color: white;
+                width: 420px;
+                line-height: 20px;
             }
 
-            .bottom-text > #matrox2 {
+            .bottom-text > #matrox2, #matrox3 {
                 word-break: normal;
+
             }
             .copyright, .rights, .design {
                 display: inline-block;
-                padding-left: 10px;
-                padding-right: 10px;
-                margin-bottom: 10px;
+                padding-left: 5px;
+                padding-right: 5px;
 
             }
 
             .rights {
                 border-left: 1px solid white;
                 border-right: 1px solid white;
+                padding: 0 8px;
 
             }
 
@@ -345,7 +359,16 @@ body {
                 margin-bottom: 10px;
             }
 
-                
+            .bottom-text > .links {
+                text-decoration: none;
+                color: white;
+            }
+            
+            .links {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+            }
 
                 
 
