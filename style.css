@@ -32,12 +32,13 @@ body {
             margin-left: calc((100% - 450px) / 2);
             text-align: center;
             margin-top: 50px;
-            padding-bottom: 30px;
+            padding-bottom: 25px;
         }
 
                 img {
                     width: 30px;
                     margin-bottom: 25px;
+
                 }
 
                 header > .top-part > h1 {
@@ -108,8 +109,9 @@ body {
                         
                     }
 
-                #type-email > #email-placeholder>* {
+                #type-email > #email-placeholder {
                         color: white;
+
                     }
 
                     .button {
@@ -125,11 +127,19 @@ body {
                         border-radius: 2px;
                     }
 
+                    #icon {
+                        display: inline-block;
+                        margin-bottom: 0px;
+                        height: 40px;
+                        width: auto;
+                    }
+
 
     main {
         background-color: white;
         display: inline-block;
         width: 100%;
+
     }
 
         .middle-part {
@@ -140,6 +150,7 @@ body {
             text-align: center;
             padding-top: 50px;
             padding-bottom: 40px;
+            position: relative;
          }
 
             .box-left {
@@ -275,7 +286,25 @@ body {
                         padding-left: 15px;
                         padding-right: 15px;
                     }
+        
+        #btn {
+            width: 40px;
+            height: 40px;
+            background-color: #007239;
+            color: white;
+            font-size: 20px;
+            border-radius: 20px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            margin-bottom: -20px;
+            line-height: 45px;
+            text-decoration: none;
 
+            
+
+            
+        }
                 
 
     footer {
