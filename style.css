@@ -435,7 +435,13 @@ body {
                     margin-left: calc((100% - 468px) / 2);  
                 }
                 
+                .bottom-text {
+                    width: 100%;
+                }
 
+                .bottom-text > .rights {
+                    border: none;
+                }
             }
     
             @media (max-width: 480px) {
@@ -455,9 +461,6 @@ body {
                     
                 }
     
-                #timer > * {
-                width: 50%;
-                }
             }
     
 
