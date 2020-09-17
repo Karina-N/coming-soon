@@ -330,6 +330,7 @@ body {
                 padding-left: 10px;
                 color: white;
                 text-decoration: none;
+                margin: 5px;
             }
 
             hr {
@@ -433,7 +434,8 @@ body {
                     width: 468px;
                     margin-left: calc((100% - 468px) / 2);  
                 }
-                    
+                
+
             }
     
             @media (max-width: 480px) {
@@ -453,6 +455,9 @@ body {
                     
                 }
     
+                #timer > * {
+                width: 50%;
+                }
             }
     
 
